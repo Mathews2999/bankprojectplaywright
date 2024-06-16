@@ -7,7 +7,7 @@ test('Login to Parabank', async ({ page }) => {
   const homePage = new HomePage(page);
 
   await loginPage.navigate();
-  await loginPage.login('johnnpn', 'okpsso[ssp[l'); // Use valid credentials
+  await loginPage.login('johnnpnw', 'okpsso[ssp[l'); // Use valid credentials
 
   await homePage.verifyLoginSuccess();
 });
